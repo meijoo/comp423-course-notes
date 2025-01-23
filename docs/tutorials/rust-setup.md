@@ -1,5 +1,3 @@
-# Setting up a dev container for <Insert: Go or Rust depending on which you are doing>
+# Setting up a dev container for Rust
 
-* Primary author: [Michelle](https://github.com/meijoo)
-
-* yo follow the git [Sven](https://github.com/svenreyes)
+* Primary author: [Michelle Jon](https://github.com/meijoo)s
