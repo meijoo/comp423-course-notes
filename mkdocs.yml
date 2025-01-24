@@ -1,5 +1,7 @@
 site_name: COMP423 Course Notes
 theme:
+  features:
+    - content.code.copy
   name: material
 
 markdown_extensions:
@@ -13,3 +15,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.keys
