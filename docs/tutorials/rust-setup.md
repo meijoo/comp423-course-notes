@@ -32,7 +32,7 @@ Make sure to have the following:
 
 1. In VS Code, open the directory. You can do this via: File > Open Folder.
 
-2. Install the Dev Containers extension for VS Code. Be sure the Dev Container Installs the official rust-analyzer VSCode plugin by the Rust Programming Language Group.
+2. Install the Dev Containers extension for VS Code. Be sure the Dev Container installs the official rust-analyzer VSCode plugin by the Rust Programming Language Group.
 
 3. Create a `.devcontainer` directory in the root of your project. 
     ```
@@ -95,7 +95,7 @@ cargo build
 ```
 This compiles the code and produces an executable file in the target/debug folder.
 
-3. To run the built file:
+3. Run the built file by typing:
     ```
     ./target/debug/my_rust_project
     ```
@@ -106,7 +106,7 @@ This compiles the code and produces an executable file in the target/debug folde
     ```
 
 ### Run the Project Using cargo run
-1. Instead of building and running the executable separately, use:
+1. You can also use cargo run:
 
     ```
     cargo run
@@ -116,4 +116,4 @@ This command builds the project and runs the executable in one step. You’ll se
     Hello COMP423!
     ```
 !!! info
-    The difference Between cargo build and cargo run is that cargo build only compiles the code, while cargo run combines the steps. It compiles and executes the program.
+    The difference between cargo build and cargo run is that cargo build only compiles the code, while cargo run combines the steps. It compiles and executes the program.
