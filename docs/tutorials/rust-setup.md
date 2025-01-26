@@ -2,7 +2,8 @@
 
 * Primary author: [Michelle Jon](https://github.com/meijoo)
 
-Welcome! In this tutorial, you'll learn how to create a new dev container for Rust. By the end of this guide, you'll set up a Rust development container (dev container) in Visual Studio Code (VS Code).
+!!! example ""
+    **Welcome! In this tutorial, you'll learn how to create a new dev container for Rust. By the end of this guide, you'll set up a Rust development container (dev container) in Visual Studio Code (VS Code).**
 
 ## Prerequisites
 
@@ -74,12 +75,12 @@ Make sure to have the following:
 ```
 cargo new my_rust_project --vcs none
 ```
-This will create a new folder named my_rust_project without initializing a Git repository that includes folders Cargo.toml and src with the file main.rs inside.
+This will create a new folder named `my_rust_project` without initializing a Git repository that includes folders `Cargo.toml` and `src` with the file `main.rs` inside.
 
 2. To create a basic "Hello, world!" program, add the following content inside main.rs.
 ```rust
 fn main() {
-    println!("Hello, world!");
+    println!("Hello COMP423!");
 }
 ```
 ## Build and Run the Rust Project
@@ -95,23 +96,24 @@ cargo build
 This compiles the code and produces an executable file in the target/debug folder.
 
 3. To run the built file:
-```
-./target/debug/my_rust_project
-```
+    ```
+    ./target/debug/my_rust_project
+    ```
 
-This will output:
-```
-Hello, world!
-```
+    This will output:
+    ```
+    Hello COMP423!
+    ```
 
 ### Run the Project Using cargo run
 1. Instead of building and running the executable separately, use:
 
-```
-cargo run
-```
+    ```
+    cargo run
+    ```
 This command builds the project and runs the executable in one step. You’ll see:
-```
-Hello, world!
-```
-The difference Between cargo build and cargo run is that cargo build only compiles the code, while cargo run combines the steps. It compiles and executes the program.
+    ```
+    Hello COMP423!
+    ```
+!!! info
+    The difference Between cargo build and cargo run is that cargo build only compiles the code, while cargo run combines the steps. It compiles and executes the program.
